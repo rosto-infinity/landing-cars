@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  border:none;
+  box-sizing: border-box;
+}
+
+:root{
+  --acent :rgb(246, 160, 0); 
+  --acent2 :rgb(189, 124, 2);
+  --bg:#fff;
+  --text:#060606;
+}
+body{
+  background: var(--bg);
+  color: var(--text);
+  overflow-x:hidden;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%
+ ####  Navigation
+%%%%%%%%%%%%%%%%%% */
+header{
+  width: 100%;
+  padding: 25px 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:var(--bg); 
+ 
+}
+
+header .logo img{
+  width: 40px;
+}
+header nav ul{
+  display: flex;
+  
+}
+header nav ul li a{
+  font-size :1rem;
+  padding: 10px 20px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* %%%%%%%%%%%%%%%%%%
+ ####  Navigation
+%%%%%%%%%%%%%%%%%% */
+
+
+/* %%%%%%%%%%%%%%%%%%
+ ####  Navigation
+%%%%%%%%%%%%%%%%%% */
+
+/* %%%%%%%%%%%%%%%%%%
+ ####  Navigation
+%%%%%%%%%%%%%%%%%% */
